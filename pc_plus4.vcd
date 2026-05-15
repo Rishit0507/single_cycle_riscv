@@ -1,0 +1,39 @@
+$date
+	Fri May 15 18:37:53 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_plus4_tb $end
+$var wire 32 ! nextpc [31:0] $end
+$var reg 32 " frompc [31:0] $end
+$scope module dut $end
+$var wire 32 # frompc [31:0] $end
+$var wire 32 $ nextpc [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 $
+b0 #
+b0 "
+b100 !
+$end
+#10000
+b1000 !
+b1000 $
+b100 "
+b100 #
+#20000
+b1100 !
+b1100 $
+b1000 "
+b1000 #
+#30000
